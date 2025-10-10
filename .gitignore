@@ -1,0 +1,32 @@
+# Ambientes Virtuais do Python
+.venv/
+venv/
+ENV/
+env/
+
+# Arquivos de cache e compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pastas e arquivos do Airflow que não devem ser versionados
+logs/
+plugins/
+unittests.cfg
+airflow.db
+*.db
+
+# Variáveis de ambiente
+.env
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados pelo Docker
+postgres-db-volume/
